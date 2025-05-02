@@ -1,0 +1,5 @@
+ame = int(input("아메리카노 판매 개수:"))
+lat = int(input("카페라떼 판매 개수:"))
+chi = int(input("카푸치노 판매 개수:"))
+all_total = int(ame*2000+lat*3000+chi*3500)
+print("총 매출은 %d 입니다."%all_total)
