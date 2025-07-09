@@ -4,7 +4,7 @@ def outer_func():
     def inner_func():
         print("This is inner_func.")
 
-    inner_func()
+        inner_func()
 
 
 
